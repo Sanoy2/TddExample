@@ -8,5 +8,10 @@ namespace Domain.Entities
         {
             this.Amount = amount;
         }
+
+        public decimal AssignDiscount(decimal originalPrice)
+        {
+            return originalPrice;
+        }
     }
 }
