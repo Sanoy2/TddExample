@@ -10,13 +10,13 @@ namespace Domain.Entities
         private List<Pizza> pizzas;
         public IEnumerable<Discount> Discounts => this.discounts;
         public IEnumerable<Pizza> Pizzas => this.pizzas;
-        public int Id { get; private set; }
+        public string OrderNumber { get; private set; }
 
-        public bool Placed { get => Id == 0; }
+        public bool Placed { get => OrderNumber == string.Empty; }
 
-        public Order(int id)
+        public Order(string orderNumber)
         {
-            this.Id = id;
+            this.OrderNumber = orderNumber;
         }
 
         public bool AddDiscount(Discount discount)
