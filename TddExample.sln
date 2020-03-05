@@ -3,13 +3,13 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.26124.0
 MinimumVisualStudioVersion = 15.0.26124.0
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Domain", "Domain\Domain.csproj", "{80BDE92A-1664-458E-97EF-5959DCF55F3D}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Domain", "src\Domain\Domain.csproj", "{80BDE92A-1664-458E-97EF-5959DCF55F3D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Domain.Tests", "Domain.Tests\Domain.Tests.csproj", "{96ABDC6F-D6F1-4D1E-AF7F-1FA7879F9B65}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Domain.Tests", "tests\DomainTests\DomainTests.csproj", "{96ABDC6F-D6F1-4D1E-AF7F-1FA7879F9B65}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DomainServices", "DomainServices\DomainServices.csproj", "{9703AE13-F0F2-4897-94A4-CF528823C534}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DomainServices", "src\DomainServices\DomainServices.csproj", "{9703AE13-F0F2-4897-94A4-CF528823C534}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DomainServicesTests", "DomainServicesTests\DomainServicesTests.csproj", "{D189E8AF-A79B-4DE0-82E8-F886B03E253A}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DomainServicesTests", "tests\DomainServicesTests\DomainServicesTests.csproj", "{D189E8AF-A79B-4DE0-82E8-F886B03E253A}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
